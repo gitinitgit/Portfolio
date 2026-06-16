@@ -1,0 +1,7 @@
+import { css } from 'styled-components';
+
+const fonts = css`
+  @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;1,9..40,300&display=swap');
+`;
+
+export default fonts;

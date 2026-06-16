@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "babel-preset-gatsby",
+      {
+        "targets": {
+          "browsers": [">0.25%", "not dead"]
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "displayName": true,
+        "fileName": true,
+        "meaninglessFileNames": ["index", "styles"],
+        "namespace": "shyam-portfolio"
+      }
+    ]
+  ]
+}
